@@ -8,6 +8,14 @@ A complete implementation of the "Build Your Own Jarvis" assignment requirements
 
 **[▶️ Watch Full Demo on YouTube](https://www.youtube.com/watch?v=XngJYt-7AAg)**
 
+## 📸 Screenshots
+
+### Welcome Interface
+![Jarvis Welcome Screen](screenshots/jarvis-welcome.png)
+
+### Query & Response
+![Jarvis Query Example](screenshots/jarvis-query.png)
+
 ## 🎯 Assignment Requirements Met
 
 ✅ **Self-hosted LLM** - OpenAI API integration with gpt-4o-mini  
