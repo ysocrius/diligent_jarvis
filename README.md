@@ -4,9 +4,9 @@ A complete implementation of the "Build Your Own Jarvis" assignment requirements
 
 ## 🎥 Demo Video
 
-<video src="https://github.com/ysocrius/diligent_jarvis/raw/main/op1.mp4" controls width="100%"></video>
+[![Watch the demo](https://img.youtube.com/vi/XngJYt-7AAg/maxresdefault.jpg)](https://www.youtube.com/watch?v=XngJYt-7AAg)
 
-*Alternatively, [download the demo video](https://github.com/ysocrius/diligent_jarvis/raw/main/op1.mp4)*
+**[▶️ Watch Full Demo on YouTube](https://www.youtube.com/watch?v=XngJYt-7AAg)**
 
 ## 🎯 Assignment Requirements Met
 
