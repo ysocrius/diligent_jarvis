@@ -29,8 +29,8 @@ Thumbs.db
 Desktop.ini
 
 # Large files
-docs/*.pdf
-*.pdf
+# docs/*.pdf
+# *.pdf
 
 # Vector stores
 faiss_index/
