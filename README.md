@@ -24,11 +24,11 @@ The application is deployed on Render with full RAG capabilities. Ask questions 
 
 ## 🎯 Assignment Requirements Met
 
-✅ **Self-hosted LLM** - OpenAI API integration with gpt-4o-mini  
+✅ **Cloud-based LLM via OpenAI API** - GPT-4o-mini integration for intelligent responses  
 ✅ **Vector Database** - Pinecone for knowledge storage and retrieval  
 ✅ **Conversational Interface** - Web-based chatbot UI with Flask  
 ✅ **Query Understanding** - RAG system for contextual responses  
-✅ **SaaS Feature** - Ready for enterprise deployment  
+✅ **SaaS Feature** - Ready for enterprise deployment
 
 ## 🚀 Quick Start
 
@@ -207,7 +207,7 @@ This application is deployed and running at: **https://diligent-jarvis.onrender.
 ## 🎓 Assignment Fulfillment
 
 This implementation directly addresses all assignment requirements:
-1. ✅ Self-hosted LLM (OpenAI API)
+1. ✅ Cloud-based LLM via OpenAI API (GPT-4o-mini)
 2. ✅ Vector database for knowledge storage (Pinecone)
 3. ✅ Conversational interface (Web chatbot)
 4. ✅ Query understanding (RAG pipeline)
