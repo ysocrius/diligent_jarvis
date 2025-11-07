@@ -2,6 +2,10 @@
 
 A complete implementation of the "Build Your Own Jarvis" assignment requirements, featuring OpenAI API integration, Pinecone vector database, and a web-based chatbot interface.
 
+## 🎥 Demo Video
+
+https://github.com/ysocrius/diligent_jarvis/raw/main/op1.mp4
+
 ## 🎯 Assignment Requirements Met
 
 ✅ **Self-hosted LLM** - OpenAI API integration with gpt-4o-mini  
