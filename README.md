@@ -2,6 +2,12 @@
 
 A complete implementation of the "Build Your Own Jarvis" assignment requirements, featuring OpenAI API integration, Pinecone vector database, and a web-based chatbot interface.
 
+## 🌐 Live Demo
+
+**Try it now:** [https://diligent-jarvis.onrender.com](https://diligent-jarvis.onrender.com)
+
+The application is deployed on Render with full RAG capabilities. Ask questions about the uploaded documents!
+
 ## 🎥 Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/XngJYt-7AAg/maxresdefault.jpg)](https://www.youtube.com/watch?v=XngJYt-7AAg)
@@ -10,11 +16,17 @@ A complete implementation of the "Build Your Own Jarvis" assignment requirements
 
 ## 📸 Screenshots
 
-### Welcome Interface
+### Live Application
 ![Jarvis Welcome Screen](screenshots/jarvis-welcome.png)
 
 ### Query & Response
 ![Jarvis Query Example](screenshots/jarvis-query.png)
+
+### Render Deployment
+![Render Deployment Dashboard](screenshots/render-deployment.png)
+
+### Environment Configuration
+![Render Environment Variables](screenshots/render-env-vars.png)
 
 ## 🎯 Assignment Requirements Met
 
@@ -163,14 +175,40 @@ Based on your documents, try questions like:
 - Check Pinecone API key permissions
 - Ensure `.env` file is correctly formatted
 
-## 🚀 Deployment Notes
+## 🚀 Deployment
 
-For SaaS deployment, consider:
-- Using a production web server (Gunicorn + Nginx)
-- Implementing user authentication
-- Adding multi-document management
-- Setting up monitoring and logging
-- Using environment variables for production credentials
+### Live on Render
+
+This application is deployed and running at: **https://diligent-jarvis.onrender.com**
+
+**Deployment Configuration:**
+- **Platform**: Render.com
+- **Runtime**: Python 3.10.13
+- **Web Server**: Gunicorn
+- **Auto-deploy**: Enabled from `main` branch
+- **Environment**: Production with full RAG stack
+
+### Deploy Your Own
+
+1. Fork this repository
+2. Sign up at [Render.com](https://render.com)
+3. Create a new Web Service
+4. Connect your GitHub repository
+5. Set environment variables:
+   - `OPENAI_API_KEY`
+   - `PINECONE_API_KEY`
+   - `PINECONE_ENVIRONMENT`
+   - `PINECONE_INDEX_NAME`
+6. Deploy!
+
+### Production Considerations
+
+- Using Gunicorn WSGI server for production
+- Environment variables for secure credential management
+- Auto-deployment on git push
+- Scalable architecture ready for load
+- Consider adding user authentication for multi-tenant use
+- Implement rate limiting for API protection
 
 ## 🎓 Assignment Fulfillment
 
