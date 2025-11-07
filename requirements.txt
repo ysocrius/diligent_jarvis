@@ -1,7 +1,7 @@
 # Build Your Own Jarvis - Dependencies
 flask==2.3.3
 openai==1.12.0
-pinecone-client==3.0.0
+pinecone-client==2.2.4
 python-dotenv==1.0.0
 PyPDF2==3.0.1
 langchain==0.1.7
