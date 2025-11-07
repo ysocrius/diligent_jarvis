@@ -3,10 +3,10 @@ services:
     name: jarvis-assistant
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn jarvis_assistant:app"
+    startCommand: "gunicorn jarvis_assistant:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.0
+        value: 3.10.13
       - key: OPENAI_API_KEY
         sync: false
       - key: PINECONE_API_KEY
