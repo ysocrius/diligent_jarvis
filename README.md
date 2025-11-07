@@ -16,13 +16,7 @@ The application is deployed on Render with full RAG capabilities. Ask questions 
 
 ## 📸 Screenshots
 
-### Live Application
-![Jarvis Welcome Screen](screenshots/jarvis-welcome.png)
-
-### Query & Response
-![Jarvis Query Example](screenshots/jarvis-query.png)
-
-### Render Deployment
+### Render Deployment Dashboard
 ![Render Deployment Dashboard](screenshots/render-deployment.png)
 
 ### Environment Configuration
